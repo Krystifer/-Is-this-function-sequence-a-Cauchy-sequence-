@@ -10,11 +10,11 @@
  
 Here T is the 'rule' of the sequence, given an initial function <a href="https://www.codecogs.com/eqnedit.php?latex=x_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_0" title="x_0" /></a> we can compute any other term of the sequence. In this code, the initial condition must be a user-defined function, 'initial_func'. The composition process is computed by 'comp_func' using recursion.
  
-The problem of determining if the term  
+In order to determining if the term  
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=||x_{n}(t)-x_{m}(t)||" target="_blank"><img src="https://latex.codecogs.com/gif.latex?||x_{n}(t)-x_{m}(t)||" title="||x_{n}(t)-x_{m}(t)||" /></a> 
 
-is as small as possible whenever n,m>N for N>>0, is equivalent to determine the maximum of
+is as small as possible whenever n,m>N for N>>0, we need to determine the maximum (due to the way the norm is defined) of
 
 <img src="https://latex.codecogs.com/gif.latex?f(t)=|x_{n}(t)-x_{m}(t)|" title="f(t)=|x_{n}(t)-x_{m}(t)|" /> 
 
